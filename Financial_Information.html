@@ -1,100 +1,13 @@
 <!doctype HTML>
 <html>
 	<head>
+		<title> Financial Information </title>
+		<link href="style.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<style>
 			.container {
 				display: flex;
 			}
-			header {
-				text-align:center;
-			}
-			header {
-				text-align:center;
-			}
-			body {
-				background-color:#e0ecff;
-				line-height:1.5;
-				font-family:Ebrima;
-				font-size:18;
-				padding-left:5%;
-				padding-right:5%;
-			}
-			
-			nav {
-				background-color:#ededed;
-				border: 1px solid #bdbdbd;
-			}
-			
-			a {
-				color:#0f305c;
-			}
-			
-			a:link {
-			  text-decoration: none;
-			}
-
-			a:visited {
-			  text-decoration: none;
-			}
-
-			a:hover {
-			  text-decoration: none;
-			  color:skyblue;
-			  background-color:white;
-			}
-
-			a:active {
-			  text-decoration: none;
-			  color:lightblue;
-			}
-			
-			h1 {
-				color:#0f305c;
-			}
-			h2 {
-				color:#0f305c;
-			}
-			.div-1 {
-				margin:auto; 
-				border:2px solid grey; 
-				background-color:white; 
-				padding-top:2%;
-				padding-bottom:2%;
-				padding-right:5%;
-				padding-left:5%;
-				text-align:center;
-			}
-			
-			.div-2 {
-				background-color:orange;
-				width:50%;
-				margin:auto;
-				color:white; 
-				text-align:center; 
-				top:10px; 
-				position:sticky; 
-				z-index:1;
-			}
-
-			table {
-				background-color:#f0f0f0;
-				border:2px solid white;
-				padding-top:2%;
-				padding-bottom:2%;
-				padding-right:2%;
-				padding-left:2%;
-				line-height:1.5;
-			}
-			
-			th {
-				padding:2%;
-			}
-			
-			td {
-				padding-right:3%;	
-				padding-left:3%;
-			}
-			
 			nav {
 				padding-left:1%;
 				padding-right:1%;
@@ -104,6 +17,8 @@
 	<body>
 	
 		<header>
+	
+		<header>
 			<h1>Arabian Rescue Mission</h1>
 			<img width="180" height="130" src="https://officialpsds.com/imageview/r2/22/r222ml_large.png?1527675162">
 			<p><i>Making a Difference, Everyday!</i></p>
@@ -111,18 +26,52 @@
 		
 		<br>
 		
-		<nav>
-			<a href="horserescue.html">Home &nbsp </a>
-			<a href="farm.html">Our Farm &nbsp </a>
-			<a href="farm.html">Adoptable Horses &nbsp </a>
-			<a href="farm.html">Our Staff &nbsp </a>
-			<a href="farm.html">Permanent Residents &nbsp </a>
-			<a href="farm.html">How Can You Help &nbsp </a>
-			<a href="farm.html">Shopping &nbsp </a>
-			<a href="farm.html">Fundraisers &nbsp </a>
-			<a href="farm.html">Financial Information &nbsp </a>
-			<a href="farm.html">Contact	 &nbsp </a>
-		</nav>
+		    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Horses<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pages</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                More
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Permanent Residents</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">How you can help</a>
+
+                <a class="dropdown-item" href="#">How ARM can help you</a>
+
+                <a class="dropdown-item" href="#">Shopping</a>
+                <a class="dropdown-item" href="#">Fundraising Events</a>
+                <a class="dropdown-item" href="#">Happy Endings!</a>
+                <a class="dropdown-item" href="#">Financial Information</a>
+
+
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#">Contact</a>
+            </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
 		<br>
 		<h1 style="text-align:center;">Financial Information</h1>
 		<img style="display: block; margin-left: auto; margin-right: auto; width: 30%;" src="https://arabianrescuemission.org/yahoo_site_admin/assets/images/2021-top-rated-awards.6173745_std.jpg">
@@ -149,6 +98,18 @@
 			</div>
 		</div>
 		<br>
-		
+		<footer class="my-1 pt-1 text-muted text-center text-small">
+            <p class="mb-1">221 Blowtown Rd, Leitchfield, KY 42754</p>
+            <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Privacy</a></li>
+            <li class="list-inline-item"><a href="#">Terms</a></li>
+            <li class="list-inline-item"><a href="#">Support</a></li>
+            </ul>
+            <h6 class="mb-1">Copyright the Arabian Rescue Mission. All rights reserved.</h6>
+        </footer>
+    </div> 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	</body>
 </html>

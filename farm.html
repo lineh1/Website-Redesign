@@ -1,101 +1,12 @@
 <doctype HTML>
 <html>
 	<head>
-		<style>
-			header {
-				text-align:center;
-			}
-			body {
-				background-color:#e0ecff;
-				line-height:2;
-				font-family:Ebrima;
-				font-size:18;
-				padding-left:5%;
-				padding-right:5%;
-			}
-			
-			nav {
-				background-color:#ededed;
-				border: 1px solid #bdbdbd;
-			}
-			
-			a {
-				color:#0f305c;
-			}
-			
-			a:link {
-			  text-decoration: none;
-			}
-
-			a:visited {
-			  text-decoration: none;
-			}
-
-			a:hover {
-			  text-decoration: none;
-			  color:skyblue;
-			  background-color:white;
-			}
-
-			a:active {
-			  text-decoration: none;
-			  color:lightblue;
-			}
-			
-			h1, h2 {
-				color:#0f305c;
-			}
-			
-			.div-1 {
-				margin:auto; 
-				border:2px solid grey; 
-				background-color:white; 
-				padding-top:2%;
-				padding-bottom:2%;
-				padding-right:5%;
-				padding-left:5%;
-			}
-			
-			.div-2 {
-				background-color:#ffdd00;
-				width:36%;
-				margin:auto;
-				color:white; 
-				text-align:center; 
-				top:10px; 
-				position:sticky; 
-				z-index:1;
-			}
-
-			.a2:hover {
-			  text-decoration: none;
-			  color:red;
-			}
-			
-			.a2:hover {
-			  text-decoration: none;
-			  background-color:#ffe642;
-			  
-			}
-
-			.a2:active {
-			  text-decoration: none;
-			  color:red;
-			}
-			
-			
-			footer {	
-				width:100%;
-				background-color:#bdbdbd; 
-				color:#ededed; 
-				height:70px; 
-				text-align:center;
-				font-size:13px;
-				margin-top:50px;
-				padding-top:50px;
-			}
-
-		</style>	
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Our Farm</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="style1.css">	
 	</head>
 	<body>
 	
@@ -105,20 +16,49 @@
 			<p><i>Making a Difference, Everyday!</i></p>
 		</header>
 		
-		<br>
 		
-		<nav>
-			<a href="index.html">Home &nbsp </a>
-			<a href="farm.html">Our Farm &nbsp </a>
-			<a href="adoptable.html">Adoptable Horses &nbsp </a>
-			<a href="farm.html">Our Staff &nbsp </a>
-			<a href="farm.html">Permanent Residents &nbsp </a>
-			<a href="farm.html">How Can You Help &nbsp </a>
-			<a href="farm.html">Shopping &nbsp </a>
-			<a href="farm.html">Fundraisers &nbsp </a>
-			<a href="farm.html">Financial Information &nbsp </a>
-			<a href="farm.html">Contact	 &nbsp </a>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="farm.html">Our Farm</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="adoptable.html">Adoptable Horses</a>
+				</li>
+				
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					More
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="#">Permanent Residents</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">How you can help</a>
+		
+					<a class="dropdown-item" href="#">How ARM can help you</a>
+					
+					<a class="dropdown-item" href="#">Shopping</a>
+					<a class="dropdown-item" href="#">Fundraising Events</a>
+					<a class="dropdown-item" href="#">Happy Endings!</a>
+					<a class="dropdown-item" href="#">Financial Information</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link " href="#">Contact</a>
+				</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			</div>
 		</nav>
+		
+	
 		<br>
 		
 		<div class="div-1">
@@ -154,6 +94,11 @@
 			<a href="farm.html">Financial Information &nbsp </a>
 			<a href="farm.html">Contact	 &nbsp </a>
 		</footer>
+		
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
 
 	</body>
 </html>
